@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+    stages {
         stage('Docker Network Test') {
             agent {
                 docker {
