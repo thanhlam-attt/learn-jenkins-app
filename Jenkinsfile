@@ -38,13 +38,5 @@ pipeline {
                 '''
             }
         }
-        stage('Test Again!') {
-            steps {
-                sh '''
-                    echo 'Test Stage Again!'
-                    ls -la
-                '''
-            }
-        }
     }
 }
