@@ -16,7 +16,7 @@ pipeline {
                     echo 'Build Stage!'
                     node --version
                     npm --version
-                    npm ci
+                    npm ci --verbose
                     npm run build
                     ls -la
                 '''
